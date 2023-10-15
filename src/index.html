@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Devlinks</title>
+  </head>
+  <body
+    class="bg-light-mobile dark:bg-dark-mobile bg-no-repeat bg-top bg-cover font-Inter font-medium text-black dark:text-white"
+  >
+    <div
+      id="main"
+      class="w-[360px] mx-auto mt-14 mb-8 transition-colors duration-200"
+    >
+      <div id="profile" class="flex flex-col items-center p-6 gap-2">
+        <img
+          src="https://github.com/wallauerr.png"
+          alt="foto de perfil do github"
+          class="rounded-full border-2 border-black/50 dark:border-white/50 w-28"
+        />
+        <p>@wallauer</p>
+      </div>
+      <div id="switch" onclick="toggleMode()" class="w-16 py-1 m-auto relative">
+        <button
+          class="w-8 h-8 bg-no-repeat bg-center p-2 bg-white rounded-full bg-sun-icon dark:bg-moon-icon absolute -translate-y-2/4 top-2/4 right-0 dark:left-0"
+        ></button>
+        <span
+          class="block w-16 h-6 border rounded-full border-black/50 dark:border-white/50 bg-black/10 dark:bg-white/10 back -webkit-backdrop-blur-sm"
+        ></span>
+      </div>
+      <ul class="p-6 flex flex-col gap-4">
+        <li
+          class="border border-black/50 dark:border-white/50 rounded-lg bg-black/10 dark:bg-white/10 hover:border-2 hover:border-black dark:hover:border-white hover:bg-black/20 dark:hover:bg-white/5 -webkit-backdrop-blur-sm py-4 px-6"
+        >
+          <a class="flex justify-center" href="#">Inscreva-se no NLW</a>
+        </li>
+        <li
+          class="border border-black/50 dark:border-white/50 rounded-lg bg-black/10 dark:bg-white/10 hover:border-2 hover:border-black dark:hover:border-white hover:bg-black/20 dark:hover:bg-white/5 -webkit-backdrop-blur-sm py-4 px-6"
+        >
+          <a class="flex justify-center" href="#">Baixe meu e-book</a>
+        </li>
+        <li
+          class="border border-black/50 dark:border-white/50 rounded-lg bg-black/10 dark:bg-white/10 hover:border-2 hover:border-black dark:hover:border-white hover:bg-black/20 dark:hover:bg-white/5 -webkit-backdrop-blur-sm py-4 px-6"
+        >
+          <a
+            class="flex justify-center"
+            href="https://github.com/Wallauerr"
+            target="_blank"
+          >
+            Veja meu portfólio
+          </a>
+        </li>
+        <li
+          class="border border-black/50 dark:border-white/50 rounded-lg bg-black/10 dark:bg-white/10 hover:border-2 hover:border-black dark:hover:border-white hover:bg-black/20 dark:hover:bg-white/5 -webkit-backdrop-blur-sm py-4 px-6"
+        >
+          <a class="flex justify-center" href="#">Conheça o Explorer</a>
+        </li>
+      </ul>
+      <div id="links" class="p-6 flex justify-center">
+        <a
+          href="https://github.com/Wallauerr"
+          target="_blank"
+          class="flex bg-none p-4 rounded-full hover:bg-black/20 dark:hover:bg-white/20"
+        >
+          <ion-icon name="logo-github" class="w-6 h-6"></ion-icon>
+        </a>
+        <a
+          href="https://instagram.com/Wallauerr"
+          target="_blank"
+          class="flex bg-none p-4 rounded-full hover:bg-black/20 dark:hover:bg-white/20"
+        >
+          <ion-icon name="logo-instagram" class="w-6 h-6"></ion-icon>
+        </a>
+        <a
+          href="https://www.youtube.com/@viniciuswallauer4193/featured"
+          target="_blank"
+          class="flex bg-none p-4 rounded-full hover:bg-black/20 dark:hover:bg-white/20"
+        >
+          <ion-icon name="logo-youtube" class="w-6 h-6"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/vin%C3%ADcius-wallauer-62a32924a/"
+          target="_blank"
+          class="flex bg-none p-4 rounded-full hover:bg-black/20 dark:hover:bg-white/20"
+        >
+          <ion-icon name="logo-linkedin" class="w-6 h-6"></ion-icon>
+        </a>
+      </div>
+      <footer class="p-6 text-center font-normal text-sm">
+        Feito com ♥ por
+        <a href="https://github.com/Wallauerr" target="_blank" class="underline"
+          >Wallauer</a
+        >
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="/src/button.js"></script>
+  </body>
+</html>
