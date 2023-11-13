@@ -10,7 +10,7 @@ module.exports = {
       backgroundImage: {
         "dark-mobile": "url('/src/assets/bg-mobile.jpg')",
         "light-mobile": "url('/src/assets/bg-mobile-light.jpg')",
-        "sun-icon": "url('/src/assets/sun.svg')",
+        "sun-icon": "url('/src/assets/Sun.svg')",
         "moon-icon": "url('/src/assets/MoonStars.svg')",
       },
     },
