@@ -30,10 +30,7 @@ git clone https://github.com/Wallauerr/Link-Tree
 cd Link-Tree
 ```
 
-3. Instale as dependências do projeto seguindo a documentação do
-   [Tailwindcss](https://tailwindcss.com/docs/installation)
-
-4. Para executar a aplicação use a extensão
+3. Para executar a aplicação use a extensão
    [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Projeto
@@ -70,8 +67,8 @@ git push origin nome-da-sua-branch
 ## Créditos
 
 - [Figma layout](<https://www.figma.com/file/NsPcyPY7zG1G1o8b1VceH8/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?node-id=10%3A620&mode=dev>)
-- [Tailwindcss](https://tailwindcss.com/)
 - [Rocketseat](https://www.rocketseat.com.br/)
+- [Tailwindcss](https://tailwindcss.com/)
 
 ## Contato
 
